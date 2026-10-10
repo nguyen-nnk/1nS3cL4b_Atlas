@@ -54,8 +54,10 @@ Tôi cũng phân biệt rõ ba thứ: **điều nguồn xác nhận**, **cách t
 Tôi chọn paper này làm điểm xuất phát vì nó chạm đến nhiều chủ đề tôi muốn tìm hiểu: malware analysis, static/dynamic analysis, LLM, RAG, Threat Intelligence và MITRE ATT&CK.
 
 - [Đọc Paper 01 note](Papers/Paper-01_LLM-Malware-Analysis.md)
+- [Danh mục tất cả paper](Papers/README.md)
 - [Bản đồ chủ đề ban đầu](Maps/README.md)
 - [Danh mục Topics](Topics/README.md)
+- [Template ghi chú paper](Templates/Paper-Note-Template.md)
 
 **Trạng thái hiện tại:** note đầu tiên được khởi tạo từ phần giới thiệu chính thức và thông tin thư mục của bài báo. Các chi tiết về Method, dataset, metric, kết quả và limitations vẫn cần được đối chiếu với toàn văn. Đây là điểm bắt đầu, không phải một expert review.
 
