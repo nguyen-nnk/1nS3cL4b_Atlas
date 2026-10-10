@@ -2,7 +2,7 @@
 
 *An independent, learner-driven atlas of cybersecurity research papers.*
 
-> Đ paper, cố hiểu xem người ta đang làm gì, rồi thử nối những mảnh kiến thức đó lại với nhau qua Atlas - infinity loop cho đến khi tôi publish được 100 paper...
+> Đọc paper, cố hiểu xem người ta đang làm gì, rồi thử nối những mảnh kiến thức đó lại với nhau qua Atlas - infinity loop cho đến khi tôi publish được 100 paper...
 
 ## Tôi lập cái repo này làm gì?
 
