@@ -2,25 +2,25 @@
 
 *An independent, learner-driven atlas of cybersecurity research papers.*
 
-> Tôi đọc từng paper, cố hiểu xem người ta đang làm gì, rồi thử nối những mảnh kiến thức đó lại với nhau. Atlas bắt đầu từ việc đơn giản như vậy thôi.
+> Đ paper, cố hiểu xem người ta đang làm gì, rồi thử nối những mảnh kiến thức đó lại với nhau qua Atlas - infinity loop cho đến khi tôi publish được 100 paper...
 
 ## Tôi lập cái repo này làm gì?
 
-Tôi là sinh viên An toàn thông tin và muốn tìm hiểu cách người ta làm nghiên cứu bảo mật. Không chỉ đọc tiêu đề rồi nhớ được vài thuật ngữ nghe có vẻ hay, mà là hiểu một paper đang giải quyết chuyện gì, tác giả làm thế nào, và kết quả của họ thật sự nói lên được điều gì.
+Là sinh viên An toàn thông tin và cực kì hứng thu với chuyện research, tôi không muốn đọc tiêu đề rồi nhớ được vài thuật ngữ nghe có vẻ hay, mà là hiểu một paper đang giải quyết chuyện gì, tác giả làm thế nào, và kết quả của họ thật sự nói lên được điều gì.
 
 Vấn đề là đọc paper không phải lúc nào cũng trôi chảy. Có đoạn đọc một lần là hiểu đại khái. Có đoạn phải mở thêm vài tab để tra. Rồi có những chỗ tưởng đã hiểu, đến khi tự giải thích lại mới phát hiện mình chỉ đang đoán.
 
-Tôi muốn ghi lại quá trình ấy ở đây. Cả phần đã hiểu, phần đang hiểu dở, và những câu hỏi chưa có lời giải.
+Tôi muốn ghi lại quá trình ấy ở đây. Cả phần đã hiểu, phần đang hiểu dở, và những câu hỏi chưa có lời giải, maybe khi vào được Lab rồi tiện đi hỏi owner luôn cho nhanh..
 
-Atlas không phải cuộc thi xem ai gom được nhiều paper hơn. Tôi cũng chưa có một thư viện nghiên cứu đồ sộ nào để khoe. Hiện tại chỉ có một paper làm điểm xuất phát. Nhưng một điểm xuất phát rõ ràng có lẽ hữu ích hơn mười paper được đọc lướt rồi cất vào kho.
+Atlas hiện tại chỉ có một paper làm điểm gờ xuất phát. Mong sao sau này sẽ chằng chịt điểm G hơn...
 
 ## Vậy Atlas khác gì một folder chứa paper note?
 
-Nếu chỉ tóm tắt từng paper, tôi có thể nhớ mỗi bài nói gì. Nhưng sau vài bài, câu hỏi thú vị hơn là: **chúng có liên quan gì đến nhau?**
+Tôi thấy trung bình vài ngày là các Lab ở trường lại ra paper mới, ôi sao nhanh thế! Chắc hẳn các Lab đều có các linking các paper lại theo topic. Còn tôi có thể nhớ mỗi bài nói gì. Nhưng sau vài bài, câu hỏi thú vị hơn là: **chúng có liên quan gì đến nhau?**
 
 Chẳng hạn, Paper 01 có nhắc đến Malware Analysis, LLM, RAG, Threat Intelligence và MITRE ATT&CK. Những cái tên này đều có thể thành một topic để tìm hiểu tiếp. Nhưng chỉ vì chúng cùng xuất hiện trong một paper không có nghĩa là tôi đã hiểu mối quan hệ giữa chúng.
 
-Tôi muốn dần dần tìm ra mối liên hệ ấy. Paper nào giải quyết một phần vấn đề? Paper nào dùng cách tiếp cận khác? Kết quả nào có bằng chứng tốt? Và điều gì vẫn chưa được giải quyết?
+Atlas lập ra với mong muốn dần dần tìm ra mối liên hệ ấy. Paper nào giải quyết một phần vấn đề? Paper nào dùng cách tiếp cận khác? Kết quả nào có bằng chứng tốt? Và điều gì vẫn chưa được giải quyết?
 
 Vì thế, Atlas có ba loại nội dung chính:
 
@@ -28,7 +28,7 @@ Vì thế, Atlas có ba loại nội dung chính:
 - **Topics:** những khái niệm và câu hỏi xuất hiện qua nhiều paper.
 - **Maps:** các mối liên hệ giữa paper, kỹ thuật, vấn đề và câu hỏi tiếp theo.
 
-Nghe hơi tham vọng nhỉ. Nhưng không sao, chúng ta chưa cần làm tất cả trong hôm nay.
+Nghe hơi tham vọng nhỉ. Nhưng không sao, 10 năm... 20 năm... 30 năm... (trích anhzai Khoai Lang thang)
 
 ## Một paper sẽ được tôi đọc như thế nào?
 
@@ -67,13 +67,9 @@ Một lưu ý quan trọng: Paper 01 hiện mới được khởi tạo từ th�
 
 ## Vài nguyên tắc để khỏi tự làm khó mình
 
-1. **Viết như người đang học thật.** Không giả vờ biết điều mình chưa biết.
-2. **Dùng đúng thuật ngữ, nhưng giải thích bằng lời của mình.** English chuyên ngành giữ nguyên khi cần; còn lại cứ nói tiếng Việt cho dễ hiểu.
-3. **Không biến một kết quả thành chân lý phổ quát.** Kết luận luôn phụ thuộc vào dữ liệu và điều kiện thử nghiệm.
-4. **Không bắt buộc paper nào cũng phải có câu trả lời cho mọi thứ.** Ghi được một câu hỏi tốt cũng có ích.
-5. **Không thêm paper chỉ để làm repo trông đông vui.** Bài tiếp theo nên đến từ một câu hỏi hoặc kết nối có lý do.
-6. **Dẫn nguồn để người khác kiểm tra lại được.** Không tự ý đưa PDF có bản quyền lên repo.
+1. **Viết như người đang học thật.** Keep it riel
+2. **Không bắt buộc paper nào cũng phải có câu trả lời cho mọi thứ.** Một câu hỏi tốt cũng có ích.
+3. **Không thêm paper chỉ để làm repo trông đông vui.** Bài nào thích linking với nhau thì quăng vô, vì mục tiêu là để học.
+4. **Dẫn nguồn để người khác kiểm tra lại được.** ... 
 
-Cuối cùng, nói cho rõ: đây là project cá nhân độc lập. Nó không phải repository chính thức, không đại diện và không hàm ý được InSecLab hay UIT bảo trợ.
-
-Atlas có thể phát triển trong nhiều tháng, thậm chí nhiều năm. Trước mắt, tôi cứ đọc cho ra một paper tử tế đã. Đi xa được đến đâu thì mình nối tiếp đến đó.
+Cuối cùng, nói cho rõ: đây là project cá nhân độc lập. Atlas là một dự án đường dài có thể phát triển trong nhiều tháng, thậm chí nhiều năm.
