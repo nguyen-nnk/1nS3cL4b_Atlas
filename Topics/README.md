@@ -1,12 +1,12 @@
-# Topics — Những thứ tôi đang lần theo
+# Topics — Mấy thứ đang tò mò
 
-Đọc paper thường tạo ra một vấn đề nho nhỏ: tác giả nhắc đến một thuật ngữ như thể ai cũng đã biết nó là gì. Tôi thì chưa chắc. Thế là mở tab mới, tìm hiểu một lúc, rồi quay về paper — đôi khi lại phát sinh thêm câu hỏi khác.
+Đọc paper hay có cảnh này: tác giả nhắc một thuật ngữ như thể ai cũng biết nó là gì. Tôi thì chưa chắc. Thế là mở tab mới tra thử, đọc một lúc rồi quay lại paper — đôi khi quay lại còn có thêm ba câu hỏi khác.
 
-Mục Topics dùng để gom những mối quan tâm như vậy lại. Không phải topic nào cũng cần có ngay một bài tổng quan dài. Có thể ban đầu nó chỉ là một câu hỏi và vài paper để quay lại đọc.
+Mục Topics dùng để gom những mối quan tâm đó lại. Chưa cần biến topic nào cũng thành một bài tổng quan chỉn chu. Nếu hiện tại nó mới là một câu hỏi và một paper để đọc lại, cứ ghi vậy trước đã.
 
-## Các topic xuất hiện trong Paper 01
+## Các topic xuất hiện từ Paper 01
 
-| Topic | Câu hỏi tôi đang muốn trả lời | Paper liên quan |
+| Topic | Câu hỏi tôi đang muốn gỡ | Paper liên quan |
 |---|---|---|
 | Malware Analysis | Từ một binary đáng ngờ, người phân tích thu thập và ghép evidence như thế nào? | [Paper 01](../Papers/Paper-01_LLM-Malware-Analysis.md) |
 | Static Analysis | Có thể biết gì về file mà không thực thi nó? Và những dấu hiệu đó nói được đến đâu? | [Paper 01](../Papers/Paper-01_LLM-Malware-Analysis.md) |
@@ -18,19 +18,19 @@ Mục Topics dùng để gom những mối quan tâm như vậy lại. Không ph
 | APT Attribution | Cần bằng chứng gì để hỗ trợ nhận định một hoạt động có thể liên quan đến nhóm nào đó? | [Paper 01](../Papers/Paper-01_LLM-Malware-Analysis.md) |
 | Empirical Evaluation | Dataset, baseline, metric và failure cases đang nói lên điều gì? | [Paper 01](../Papers/Paper-01_LLM-Malware-Analysis.md) |
 
-## Đây mới là danh sách câu hỏi, chưa phải chín bài tổng quan
+## Khoan, đây chưa phải chín bài tổng quan nhé
 
-Các dòng trên xuất phát từ overview của Paper 01. Tôi chưa đọc đủ để nói rằng mình đã nắm sâu từng chủ đề — và cũng chưa có lý do gì phải giả vờ như vậy.
+Các dòng trên được gợi ra từ overview của Paper 01. Tôi chưa đọc đủ để nói mình đã nắm sâu từng chủ đề — và nói thật, cũng chưa có lý do gì phải giả vờ như vậy.
 
-Khi có thêm paper, tôi sẽ sửa bảng này dựa trên điều thực sự học được. Có thể một topic cần tách thành hai. Có thể hai ý ban đầu tưởng liên quan hóa ra khác nhau. Hoặc có chủ đề được nhắc tên nhiều nhưng paper không cung cấp đủ thông tin để kết luận điều gì.
+Khi đọc thêm paper, bảng này có thể thay đổi. Một topic có thể cần tách thành hai; hai thứ tưởng liên quan có khi lại khác nhau; hoặc một thuật ngữ xuất hiện trong paper nhưng không đủ evidence để nói thêm điều gì. Chuyện đó bình thường.
 
-## Khi nào nên mở một topic thành note riêng?
+## Khi nào một topic cần có note riêng?
 
-Tôi sẽ cân nhắc viết sâu hơn khi:
+Tôi sẽ cân nhắc mở một note khi:
 
-- Một khái niệm xuất hiện nhiều lần và tôi muốn có lời giải thích của riêng mình.
-- Một câu hỏi cần đọc nhiều paper mới hiểu được.
-- Hai paper dùng cùng một kỹ thuật nhưng theo cách khác nhau.
+- Một khái niệm xuất hiện nhiều lần và tôi muốn tự giải thích nó cho rõ.
+- Một câu hỏi cần đọc nhiều paper mới trả lời được.
+- Hai paper dùng cùng kỹ thuật nhưng triển khai hoặc đánh giá khác nhau.
 - Một limitation mở ra hướng tìm hiểu đáng theo đuổi.
 
-Còn nếu chưa có gì ngoài một cái tên, cứ để nó là câu hỏi trước đã. Repository không cần phải kín chỗ mới được xem là có tiến triển.
+Còn nếu mới chỉ biết tên, cứ để nó ở đây như một câu hỏi đang chờ. Không cần trang nào cũng đầy chữ mới gọi là tiến độ đâu.
