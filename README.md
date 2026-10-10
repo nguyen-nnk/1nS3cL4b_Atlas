@@ -1,4 +1,4 @@
-# InSecLab Atlas
+# 1nS4cL4b Atlas
 
 *An independent, learner-driven atlas of cybersecurity research papers.*
 
