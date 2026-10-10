@@ -1,4 +1,4 @@
-# 1nS4cL4b Atlas
+# 1nS3cL4b Atlas
 
 *An independent, learner-driven atlas of cybersecurity research papers.*
 
