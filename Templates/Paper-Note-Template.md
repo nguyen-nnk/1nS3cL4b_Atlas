@@ -1,20 +1,21 @@
 # Paper XX — [Title]
 
-> Đây là note của tôi về paper này, không phải expert review. Hãy ghi rõ mình đã đọc đến đâu: abstract, overview, một vài section hay toàn văn.
+> Đây là note của tôi về paper này, không phải expert review. Ghi rõ đã đọc đến đâu: abstract, overview, một vài section hay full paper. Đọc tới đâu nói tới đó.
 
-Một lưu ý trước khi viết: **đừng cố trả lời tất cả các mục cho đủ form**. Nếu chưa biết câu trả lời thì ghi câu hỏi. Nếu một mục không phù hợp với paper, có thể sửa hoặc bỏ nó.
+Một lưu ý nhỏ: đừng cố điền kín tất cả mục cho đẹp form. Chưa biết thì ghi câu hỏi; mục nào không phù hợp thì sửa hoặc bỏ. Template này để đỡ quên ý quan trọng, không phải bài kiểm tra hành chính.
 
-## 0. Vì sao tôi mở paper này?
+## 0. Tôi gặp paper này bằng cách nào?
 
-Tôi biết đến bài này từ đâu? Nó liên quan gì đến điều mình đang học, một paper khác, hoặc một câu hỏi đang mắc?
+- Biết đến bài này từ đâu?
+- Nó liên quan gì đến điều tôi đang học, paper khác hoặc câu hỏi đang mắc?
 
-## 1. Thông tin để tìm lại bài
+## 1. Thông tin để lần lại bài
 
 - **Title:**
 - **Authors:**
 - **Venue / Year:**
 - **DOI / Official link:**
-- **Nguồn tôi đã kiểm tra:** abstract / overview / full text / supplementary material
+- **Nguồn đã kiểm tra:** abstract / overview / full text / supplementary material
 
 ## 2. Tác giả đang muốn giải quyết chuyện gì?
 
@@ -22,20 +23,20 @@ Tôi biết đến bài này từ đâu? Nó liên quan gì đến điều mình
 - **Vì sao đáng quan tâm?**
 - **Research gap / contribution:** tác giả nói gì, và tôi đã kiểm tra đến đâu?
 
-Đừng vội biến điều tác giả tuyên bố thành kết luận đã được chứng minh. Cứ ghi lại claim trước, rồi xem evidence ở đâu.
+Cứ ghi lại claim trước rồi tìm evidence sau. Đừng vội biến điều tác giả tuyên bố thành kết luận đã được chứng minh.
 
-## 3. Có thuật ngữ nào tôi cần gỡ trước không?
+## 3. Có thuật ngữ nào cần gỡ trước không?
 
-- **Term:** 
+- **Term:**
 - **Cách tôi hiểu hiện tại:**
 - **Nguồn giải thích / ví dụ:**
 - **Điểm vẫn chưa thông:**
 
-Giữ thuật ngữ chuyên ngành bằng English khi cần, nhưng giải thích bằng tiếng Việt của mình. Không cần chép một định nghĩa dài nếu vẫn chưa hiểu nó có nghĩa gì trong paper này.
+Giữ thuật ngữ chuyên ngành bằng English khi cần, phần giải thích thì dùng tiếng Việt của mình. Không cần chép một định nghĩa thật dài nếu quay lại vẫn chưa hiểu nó có ý nghĩa gì trong paper này.
 
-## 4. Method — tác giả thực sự làm gì?
+## 4. Method — họ thực sự làm gì?
 
-Tôi có thể kể lại các bước theo thứ tự nào?
+Thử kể lại các bước theo thứ tự mình hiểu được:
 
 ```text
 Input
@@ -47,9 +48,9 @@ Step 2
 Output
 ```
 
-Sơ đồ trên chỉ là khung gợi ý; hãy sửa theo paper thực tế. Ghi rõ phần nào tôi lấy từ nguồn, phần nào là cách tôi vẽ lại. Đừng tự lấp khoảng trống của Method bằng phỏng đoán.
+Đây là sơ đồ khung, hãy sửa theo paper thực tế. Ghi rõ phần nào lấy từ nguồn, phần nào là cách tôi vẽ lại. Đừng tự lấp khoảng trống trong Method bằng suy đoán.
 
-## 5. Evidence — họ dựa vào đâu để nói phương pháp có hiệu quả?
+## 5. Evidence — họ dựa vào đâu?
 
 - **Dataset / setup:**
 - **Baselines:**
@@ -59,11 +60,11 @@ Sơ đồ trên chỉ là khung gợi ý; hãy sửa theo paper thực tế. Ghi
 - **Điều gì chưa được kiểm chứng?**
 - **Failure cases / threats to validity (nếu có):**
 
-Đừng chỉ chép một con số rồi chuyển sang phần tiếp theo. Thử giải thích xem con số ấy đo điều gì và có đủ để hỗ trợ claim không.
+Đừng chỉ chép một con số rồi chuyển mục. Thử tự trả lời: con số ấy đo gì, nó có liên quan đến claim không, và mình có đang kết luận quá tay không?
 
-## 6. Đọc đến đây thì tôi hiểu được gì?
+## 6. Đọc đến đây, tôi hiểu được gì?
 
-### Tôi có thể tự giải thích lại
+### Tôi có thể giải thích lại bằng lời của mình
 
 - ...
 
@@ -71,17 +72,17 @@ Sơ đồ trên chỉ là khung gợi ý; hãy sửa theo paper thực tế. Ghi
 
 - ...
 
-Nếu cần mở thêm tab để học kiến thức nền, ghi lại từ khóa hoặc nguồn sẽ giúp lần sau quay lại dễ hơn.
+Nếu phải mở thêm tab để học kiến thức nền, ghi lại từ khóa hoặc nguồn để lần sau còn tìm được đường quay lại.
 
-## 7. Limitations — điều gì chưa được giải quyết?
+## 7. Limitations — chuyện gì vẫn chưa được giải quyết?
 
 - **Limitations do tác giả nêu:**
 - **Giới hạn tôi tự nhận thấy:** (ghi rõ đây là nhận xét của mình)
 - **Điều chưa đủ evidence để kết luận:**
 - **Câu hỏi mới xuất hiện:**
-- **Có experiment hoặc nguồn nào giúp trả lời không?**
+- **Experiment hoặc nguồn nào có thể giúp trả lời?**
 
-Không cần ép mình phải tìm ra một “research gap lớn” ngay. Một câu hỏi nhỏ nhưng cụ thể vẫn là khởi đầu tốt.
+Không cần ép mình phải tìm ra một research gap thật to. Một câu hỏi nhỏ nhưng cụ thể vẫn là khởi đầu tử tế.
 
 ## 8. Nối paper này vào Atlas
 
@@ -90,7 +91,7 @@ Không cần ép mình phải tìm ra một “research gap lớn” ngay. Một
 - **Mối liên hệ cụ thể là gì?**
 - **Mức độ chắc chắn:** source-confirmed / my interpretation / open question
 
-Viết một câu giải thích lý do nối hai paper. Nếu chưa có lý do đủ rõ, để trống cũng được.
+Nếu nối hai paper, viết một câu giải thích vì sao. Nếu chưa có lý do đủ rõ thì để trống, đừng nối cho đủ bộ.
 
 ## 9. Trạng thái đọc
 
