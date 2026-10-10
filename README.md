@@ -2,73 +2,78 @@
 
 *An independent, learner-driven atlas of cybersecurity research papers.*
 
-> Đọc từng paper, hiểu từng ý, rồi nối những gì mình học được thành một bản đồ tri thức.
+> Tôi đọc từng paper, cố hiểu xem người ta đang làm gì, rồi thử nối những mảnh kiến thức đó lại với nhau. Atlas bắt đầu từ việc đơn giản như vậy thôi.
 
-## Vì sao tôi bắt đầu Atlas?
+## Tôi lập cái repo này làm gì?
 
-Tôi đang học An toàn thông tin và muốn hiểu cách người ta làm nghiên cứu bảo mật, chứ không chỉ dừng lại ở việc đọc một tiêu đề hay ghi nhớ vài thuật ngữ mới.
+Tôi là sinh viên An toàn thông tin và muốn tìm hiểu cách người ta làm nghiên cứu bảo mật. Không chỉ đọc tiêu đề rồi nhớ được vài thuật ngữ nghe có vẻ hay, mà là hiểu một paper đang giải quyết chuyện gì, tác giả làm thế nào, và kết quả của họ thật sự nói lên được điều gì.
 
-Khi đọc paper, có những đoạn tôi hiểu ngay, có chỗ phải dừng lại tra kiến thức nền, và cũng có những kết quả tôi chưa đủ cơ sở để tự kết luận. Tôi muốn ghi lại cả quá trình đó một cách trung thực.
+Vấn đề là đọc paper không phải lúc nào cũng trôi chảy. Có đoạn đọc một lần là hiểu đại khái. Có đoạn phải mở thêm vài tab để tra. Rồi có những chỗ tưởng đã hiểu, đến khi tự giải thích lại mới phát hiện mình chỉ đang đoán.
 
-Vì vậy, **InSecLab Atlas** không được tạo ra để thi xem ai đọc được nhiều paper hơn. Tôi muốn xây một bản đồ giúp mình trả lời dần những câu hỏi:
+Tôi muốn ghi lại quá trình ấy ở đây. Cả phần đã hiểu, phần đang hiểu dở, và những câu hỏi chưa có lời giải.
 
-- Paper đang cố giải quyết vấn đề gì?
-- Tác giả đã làm gì để giải quyết nó?
-- Bằng chứng nào hỗ trợ cho kết luận?
-- Kết quả còn giới hạn ở đâu?
-- Từ đó, mình có thể đặt câu hỏi hoặc tìm hướng đọc tiếp nào?
+Atlas không phải cuộc thi xem ai gom được nhiều paper hơn. Tôi cũng chưa có một thư viện nghiên cứu đồ sộ nào để khoe. Hiện tại chỉ có một paper làm điểm xuất phát. Nhưng một điểm xuất phát rõ ràng có lẽ hữu ích hơn mười paper được đọc lướt rồi cất vào kho.
 
-## Atlas không chỉ là một folder chứa paper note
+## Vậy Atlas khác gì một folder chứa paper note?
 
-Một ghi chú riêng lẻ giúp tôi nhớ nội dung của một paper. Nhưng khi có nhiều paper, điều thú vị hơn là nhận ra chúng có liên quan gì đến nhau.
+Nếu chỉ tóm tắt từng paper, tôi có thể nhớ mỗi bài nói gì. Nhưng sau vài bài, câu hỏi thú vị hơn là: **chúng có liên quan gì đến nhau?**
 
-Ví dụ, một paper có thể dùng **LLM**, **RAG** và **Threat Intelligence** để hỗ trợ **Malware Analysis**. Một paper khác sau này có thể tập trung vào cách trích xuất hành vi từ binary, hoặc đánh giá độ tin cậy của LLM trong security tasks. Khi có đủ căn cứ, tôi muốn nối các ý tưởng đó lại để thấy kỹ thuật nào đang được dùng, câu hỏi nào vẫn còn mở và paper nào đáng đọc tiếp.
+Chẳng hạn, Paper 01 có nhắc đến Malware Analysis, LLM, RAG, Threat Intelligence và MITRE ATT&CK. Những cái tên này đều có thể thành một topic để tìm hiểu tiếp. Nhưng chỉ vì chúng cùng xuất hiện trong một paper không có nghĩa là tôi đã hiểu mối quan hệ giữa chúng.
 
-Bản đồ này sẽ được xây dần. Hiện tại Atlas mới bắt đầu từ một paper; tôi không xem đó là thư viện nghiên cứu đã hoàn chỉnh.
+Tôi muốn dần dần tìm ra mối liên hệ ấy. Paper nào giải quyết một phần vấn đề? Paper nào dùng cách tiếp cận khác? Kết quả nào có bằng chứng tốt? Và điều gì vẫn chưa được giải quyết?
 
-## Cách tôi đọc và ghi lại một paper
+Vì thế, Atlas có ba loại nội dung chính:
+
+- **Papers:** tôi đã đọc gì, hiểu được gì, còn mắc ở đâu.
+- **Topics:** những khái niệm và câu hỏi xuất hiện qua nhiều paper.
+- **Maps:** các mối liên hệ giữa paper, kỹ thuật, vấn đề và câu hỏi tiếp theo.
+
+Nghe hơi tham vọng nhỉ. Nhưng không sao, chúng ta chưa cần làm tất cả trong hôm nay.
+
+## Một paper sẽ được tôi đọc như thế nào?
 
 Tôi cố gắng lần theo mạch:
 
 **Problem → Method → Evidence → Limitation → New Question**
 
-1. **Problem:** Tác giả muốn giải quyết vấn đề gì, và tại sao nó đáng quan tâm?
-2. **Method:** Họ thực sự làm gì? Tôi giải thích lại bằng lời của mình, thay vì chép thuật ngữ.
-3. **Evidence:** Họ dùng dataset, baseline, metric hay thí nghiệm nào để hỗ trợ claim?
-4. **Limitation:** Kết quả chưa nói được điều gì? Giới hạn nào do tác giả nêu, giới hạn nào tôi còn nghi ngờ?
-5. **New Question:** Sau khi hiểu paper hơn, tôi muốn tìm hiểu điều gì tiếp theo?
+- **Problem:** Tác giả đang muốn giải quyết chuyện gì? Vì sao chuyện đó đáng quan tâm?
+- **Method:** Họ thực sự làm gì? Tôi có thể giải thích lại bằng lời của mình không?
+- **Evidence:** Họ dùng dataset, baseline, metric hay experiment nào để hỗ trợ kết luận?
+- **Limitation:** Kết quả còn giới hạn ở đâu? Tác giả đã nói gì, và tôi còn nghi ngờ điều gì?
+- **New Question:** Sau khi đọc xong, điều gì khiến tôi muốn tìm hiểu tiếp?
 
-Tôi cũng phân biệt rõ ba thứ: **điều nguồn xác nhận**, **cách tôi đang hiểu**, và **điều tôi chưa biết**. Nếu một nhận xét mới dựa trên abstract hoặc phần giới thiệu của nhóm nghiên cứu, tôi sẽ ghi rõ như vậy, không giả vờ đã kiểm tra toàn bộ paper.
+Tôi cũng cố tách ba thứ ra khỏi nhau: điều được nguồn xác nhận, cách tôi đang hiểu, và điều tôi chưa biết. Nếu tôi mới đọc overview mà chưa kiểm tra full paper, tôi sẽ nói rõ. Không có lợi gì khi viết cho thật chắc chắn rồi sau đó không giải thích nổi vì sao mình kết luận như vậy.
 
-## Cấu trúc repository
+## Đi một vòng trong repository
 
-- [`Papers/`](Papers/) — Mỗi paper có một note riêng.
-- [`Topics/`](Topics/) — Các trang tổng hợp kiến thức theo chủ đề; chỉ mở rộng khi có nội dung đủ cơ sở.
-- [`Maps/`](Maps/) — Ghi lại những mối liên hệ giữa paper, kỹ thuật, vấn đề và câu hỏi nghiên cứu.
-- [`Templates/`](Templates/) — Khung ghi chú để giữ cách làm nhất quán, nhưng không ép mọi paper vào cùng một khuôn cứng nhắc.
+- [Papers/](Papers/) — Mỗi paper có một note riêng.
+- [Topics/](Topics/) — Các câu hỏi và khái niệm đang được theo dõi.
+- [Maps/](Maps/) — Những kết nối tôi đã nhận ra hoặc đang muốn kiểm tra.
+- [Templates/](Templates/) — Một khung ghi chú để khỏi phải nghĩ lại cách trình bày từ đầu mỗi lần.
 
-## Điểm bắt đầu
+### Điểm bắt đầu: Paper 01
 
-### Paper 01 — Leveraging LLMs to Support Malware Analysis from Structured and Semantic Binary Data
+**Leveraging LLMs to Support Malware Analysis from Structured and Semantic Binary Data**
 
-Tôi chọn paper này làm điểm xuất phát vì nó chạm đến nhiều chủ đề tôi muốn tìm hiểu: malware analysis, static/dynamic analysis, LLM, RAG, Threat Intelligence và MITRE ATT&CK.
+Tôi chọn bài này vì nó chạm đến nhiều thứ tôi đang tò mò: Malware Analysis, Static/Dynamic Analysis, LLM, RAG, Threat Intelligence và MITRE ATT&CK.
 
-- [Đọc Paper 01 note](Papers/Paper-01_LLM-Malware-Analysis.md)
-- [Danh mục tất cả paper](Papers/README.md)
-- [Bản đồ chủ đề ban đầu](Maps/README.md)
-- [Danh mục Topics](Topics/README.md)
-- [Template ghi chú paper](Templates/Paper-Note-Template.md)
+- [Đọc Paper 01](Papers/Paper-01_LLM-Malware-Analysis.md)
+- [Xem danh mục paper](Papers/README.md)
+- [Xem Topics ban đầu](Topics/README.md)
+- [Xem Map ban đầu](Maps/README.md)
+- [Lấy template ghi chú](Templates/Paper-Note-Template.md)
 
-**Trạng thái hiện tại:** note đầu tiên được khởi tạo từ phần giới thiệu chính thức và thông tin thư mục của bài báo. Các chi tiết về Method, dataset, metric, kết quả và limitations vẫn cần được đối chiếu với toàn văn. Đây là điểm bắt đầu, không phải một expert review.
+Một lưu ý quan trọng: Paper 01 hiện mới được khởi tạo từ thông tin thư mục và phần giới thiệu công khai của InSecLab. Các chi tiết về architecture, dataset, metrics, bảng kết quả và limitations vẫn cần được kiểm tra trong toàn văn. Đây là nhật ký đọc đang phát triển, chưa phải expert review.
 
-## Nguyên tắc của project
+## Vài nguyên tắc để khỏi tự làm khó mình
 
-- Viết từ góc nhìn người đang học; không giả vờ là chuyên gia.
-- Ưu tiên hiểu đúng hơn là dùng nhiều thuật ngữ.
-- Không biến một kết quả trong một setup cụ thể thành kết luận đúng cho mọi trường hợp.
-- Khi chưa xác minh, nói rõ là chưa xác minh.
-- Không đặt quota paper cho đẹp profile. Paper tiếp theo nên xuất hiện từ một câu hỏi hoặc kết nối có ý nghĩa.
-- Dẫn về nguồn chính thức; không tự ý đưa bản PDF có bản quyền vào repository.
-- Đây là project cá nhân độc lập, không phải repository chính thức, không đại diện hay hàm ý được InSecLab hoặc UIT bảo trợ.
+1. **Viết như người đang học thật.** Không giả vờ biết điều mình chưa biết.
+2. **Dùng đúng thuật ngữ, nhưng giải thích bằng lời của mình.** English chuyên ngành giữ nguyên khi cần; còn lại cứ nói tiếng Việt cho dễ hiểu.
+3. **Không biến một kết quả thành chân lý phổ quát.** Kết luận luôn phụ thuộc vào dữ liệu và điều kiện thử nghiệm.
+4. **Không bắt buộc paper nào cũng phải có câu trả lời cho mọi thứ.** Ghi được một câu hỏi tốt cũng có ích.
+5. **Không thêm paper chỉ để làm repo trông đông vui.** Bài tiếp theo nên đến từ một câu hỏi hoặc kết nối có lý do.
+6. **Dẫn nguồn để người khác kiểm tra lại được.** Không tự ý đưa PDF có bản quyền lên repo.
 
-Atlas có thể phát triển trong nhiều tháng hoặc nhiều năm. Trước mắt, tôi chỉ cần làm tốt paper đầu tiên và học cách nối những điều mình đọc được thành một câu chuyện có căn cứ.
+Cuối cùng, nói cho rõ: đây là project cá nhân độc lập. Nó không phải repository chính thức, không đại diện và không hàm ý được InSecLab hay UIT bảo trợ.
+
+Atlas có thể phát triển trong nhiều tháng, thậm chí nhiều năm. Trước mắt, tôi cứ đọc cho ra một paper tử tế đã. Đi xa được đến đâu thì mình nối tiếp đến đó.
