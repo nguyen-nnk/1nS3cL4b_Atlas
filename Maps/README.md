@@ -1,10 +1,14 @@
 # Maps — Nối các mảnh ghép
 
-Paper note giúp tôi ghi lại từng bài riêng lẻ. Maps là nơi tôi thử trả lời câu hỏi: *Những ý này có liên quan với nhau như thế nào, và mối liên hệ ấy có ý nghĩa gì?*
+Một paper note giúp tôi nhớ một bài viết đã nói gì. Nhưng tôi muốn Atlas đi xa hơn một chút: khi đọc nhiều bài, liệu có nhìn ra được kỹ thuật nào được dùng lại, vấn đề nào vẫn còn khó, hoặc câu trả lời nào lại dẫn đến câu hỏi khác không?
 
-Tôi chưa muốn vẽ một sơ đồ lớn chỉ để trông có vẻ nghiên cứu. Mỗi connection cần có lý do, và phải phân biệt connection đã xác nhận với connection mới là hướng đọc tiềm năng.
+Đó là lý do có mục Maps.
 
-## Map 00 — Điểm xuất phát từ Paper 01
+Tôi không định vẽ một sơ đồ thật lớn chỉ để repo trông giống một công trình nghiên cứu đồ sộ. Mỗi đường nối nên có lý do. Nếu mới là phỏng đoán thì cứ ghi là phỏng đoán.
+
+## Map 00 — Những gì tôi thấy trong Paper 01
+
+Theo phần giới thiệu công khai của InSecLab, bài báo kết nối các thành phần sau:
 
 ```text
 Paper 01: LLMs for Malware Analysis
@@ -20,22 +24,24 @@ Paper 01: LLMs for Malware Analysis
                     +--> APT ranking / attribution support
 ```
 
-**Nguồn:** sơ đồ khái quát được dựng lại từ phần giới thiệu chính thức của InSecLab. Đây không phải reconstruction của toàn bộ architecture trong paper.
+Đây chỉ là sơ đồ khái quát để tôi dễ hình dung câu chuyện của paper. Nó không phải bản dựng lại toàn bộ architecture; tôi vẫn cần đọc phần Method để xác minh các bước, dữ liệu đi qua đâu và từng thành phần làm gì.
 
-## Các connection đang theo dõi
+## Những đường nối đang theo dõi
 
-| Từ | Đến | Vì sao đáng nối? | Trạng thái |
+| Từ | Đến | Vì sao tôi muốn nối? | Hiện trạng |
 |---|---|---|---|
-| Malware Analysis | Static / Dynamic Analysis | Cần hiểu hai kiểu report đóng góp evidence gì và khác nhau ở đâu. | Câu hỏi nền tảng |
-| LLM | RAG + Threat Intelligence | Cần xác định context được truy xuất bổ sung gì cho model. | Chưa kiểm tra Method |
-| TTP mapping | MITRE ATT&CK | Cần hiểu mapping unit, ground truth và cách đo độ chính xác. | Chưa kiểm tra Evaluation |
-| APT ranking | Empirical Evaluation | Cần hiểu ranking được đánh giá ra sao và mức độ nào có thể hỗ trợ attribution. | Chưa kiểm tra Evaluation |
+| Malware Analysis | Static / Dynamic Analysis | Tôi muốn hiểu mỗi kiểu report đóng góp loại evidence nào và chúng bổ sung nhau ra sao. | Câu hỏi nền tảng |
+| LLM | RAG + Threat Intelligence | Tôi muốn biết context được truy xuất thêm vào giúp model ở bước nào. | Chưa kiểm tra Method |
+| TTP mapping | MITRE ATT&CK | Tôi muốn hiểu đơn vị mapping, ground truth và cách đánh giá độ đúng. | Chưa kiểm tra Evaluation |
+| APT ranking | Empirical Evaluation | Tôi muốn hiểu thứ hạng được đánh giá thế nào, và nó hỗ trợ attribution tới đâu. | Chưa kiểm tra Evaluation |
 
-## Quy tắc vẽ map
+Tạm thời, các đường nối trên dựa trên phần overview và câu hỏi của tôi. Chúng chưa phải kết luận về mức độ hiệu quả của framework.
 
-1. Không nối hai chủ đề chỉ vì chúng xuất hiện trong cùng một abstract.
-2. Ghi rõ connection dựa trên câu chữ của paper, kết quả thực nghiệm hay suy luận của tôi.
-3. Khi có paper khác, bổ sung connection kèm lý do cụ thể; đừng chỉ thêm một nút để sơ đồ trông lớn hơn.
-4. Nếu một mối liên hệ không đứng vững sau khi đọc kỹ hơn, sửa hoặc xóa nó.
+## Quy tắc tôi muốn giữ khi vẽ map
 
-Mục tiêu không phải là làm ra một sơ đồ đẹp nhất ngay từ đầu. Mục tiêu là tạo ra một bản đồ ngày càng có ích cho những câu hỏi nghiên cứu tiếp theo.
+1. Hai chủ đề xuất hiện cùng abstract chưa chắc đã có mối quan hệ sâu sắc.
+2. Mỗi connection cần ghi nó dựa trên câu chữ của paper, kết quả thực nghiệm hay suy luận của tôi.
+3. Khi có paper mới, tôi sẽ thêm lý do cho mối nối đó, không chỉ thêm một cái tên vào sơ đồ.
+4. Nếu đọc kỹ hơn và thấy kết nối ban đầu không đứng vững, sửa hoặc xóa nó. Map là thứ được phép thay đổi khi mình hiểu thêm.
+
+Mục tiêu không phải là làm cho bản đồ đẹp ngay từ đầu. Mục tiêu là vài tháng sau nhìn lại, tôi có thể hiểu vì sao mình nối hai ý tưởng với nhau — và bằng chứng nào khiến mình tin vào mối nối ấy.
